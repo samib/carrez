@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<% resultat = ReponseFinale %>
+        
+
+
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+    
+
+<form method="get" action="/process">
+	<div class="row">
+		
+		<div class = "col-xs-8 col-sm-9">
+			<input type="text" class="form-control" 
+			name ="lbcUrl" placeholder="https://www.leboncoin.fr">
+		</div>
+
+		<div class="col-xs-4 col-sm-3">
+			<button type="submit" class="btn btn-default"> Tell me </button>
+		</div>
+	</div>
+</form>
+
+
+
+<div id="news">
+<h2>Réponse</h2>
+<ul>
+	<li class="dot">Votre deal est : </li>
+	 <p name = "test" class = "price_m2">  :<%= resultat %> </p>
+</ul>
+</div>
+
+
+</body>
+
+</html>

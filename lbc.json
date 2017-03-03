@@ -1,0 +1,7 @@
+{
+	"price": "integer",
+	"city": "string",
+	"surface": "double",
+}
+
+
